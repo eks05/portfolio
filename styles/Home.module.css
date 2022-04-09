@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.Container {
+    width: 100%;
+    height: 100vh;
+}
+
+.main {
+    height: 80%;
+    width: 100%;
+}
+
+.header {
+    height: 10%;
+    width: 84%;
+    margin: auto
+}
+
+@media (min-width: 768px) {
+    .route {
+        display: none;
+        float: right;
+    }
+}
+
+@media (min-width: 1024px) {
+    .route {
+        display: flex;
+        float: right;
+    }
+}
+
+
+.route div {
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.content {
+    width: 85%;
+    height: 90%;
+    margin: auto
+}
+
+.title {
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+}
+
+.text {
+    width: 50%;
+    height: 80%;
+    margin: auto;
+    padding: 2rem;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text span {
+    text-decoration: line-through;
+}
+
+.text div {
+    margin: auto
+}
+
+.button {
+    width: 200px;
+    background-color: #494949;
+    color: white;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    margin: auto;
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+
+.arrow {
+    text-align: center;
+    padding: 2rem;
+    cursor: pointer;
+}
+
+.section {
+    display: flex;
+}
+
+.section1 {
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+
+.section1_middle_side {
+    width: 28%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile {
+    margin: auto;
+}
+
+.section1_left_side,
+.section1_right_side {
+    width: 36%;
+    height: 100%;
+}
