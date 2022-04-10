@@ -1,12 +1,15 @@
 {
   "name": "portfolio",
+  "homepage": "http://eks05.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.22",
@@ -17,6 +20,7 @@
   },
   "devDependencies": {
     "eslint": "8.12.0",
-    "eslint-config-next": "12.1.4"
+    "eslint-config-next": "12.1.4",
+    "gh-pages": "^3.2.3"
   }
 }
