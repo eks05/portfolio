@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap');
 
 .Container {
     width: 100%;
@@ -49,14 +50,14 @@
 
 .title {
     font-weight: bold;
-    font-size: 32px;
+    font-size: 50px;
     text-align: center;
     font-family: 'Mukta', sans-serif;
 }
 
 .text {
     width: 50%;
-    height: 80%;
+    height: 45%;
     margin: auto;
     padding: 2rem;
     font-size: 20px;
@@ -93,28 +94,64 @@
 }
 
 .section {
-    display: flex;
-}
-
-.section1 {
     width: 100%;
-    height: 80%;
-    display: flex;
-}
-
-.section1_middle_side {
-    width: 28%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+    height: 100%
 }
 
 .profile {
     margin: auto;
 }
 
-.section1_left_side,
-.section1_right_side {
-    width: 36%;
-    height: 100%;
+.about .title {
+    font-size: 50px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+    height: 10%;
+    width: 100%
+}
+
+.about .row {
+    height: 90%;
+    width: 60%;
+    display: flex;
+    margin: auto;
+}
+
+.about .content {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 300px;
+    height: 200px;
+    flex-direction: column;
+    display: flex;
+}
+
+.content .name {
+    border-bottom: 1px solid rgb(214, 214, 214);
+    height: 30%;
+    width: 100%;
+    display: flex;
+}
+
+.name span {
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content .value {
+    height: 70%;
+    width: 100%;
+    display: flex;
+}
+
+.value .schools {
+    font-size: 18px;
+
+}
+
+.value span {
+    font-weight: bold;
+    font-size: 25px;
+    margin: auto;
+
 }

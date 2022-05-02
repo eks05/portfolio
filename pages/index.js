@@ -35,13 +35,9 @@ export default function Home() {
                     </div>
                     <div className={styles.text}>
                       <div>
-                        {`안녕하세요! 상상하는 개발자, 윤긍입니다. <span>(MBTI ISTP인건 안비밀)</span> <br />
-                        현재 한국디지털미디어고등학교에 재학중인 낭만있는 고등학생 2학년이고요! <br />
-                        다양한 분야에서 활약할 수 있는 인재가 되기 위해 끊임없이 노력하고 있습니다! <br />
-                        이 초라한 곳에 찾아와주신것에 대단히 감사하고요, <br />이제부터 저에 대해 하나씩 알아가는 시간 가져보도록 할게요! <br />
-                        Hello! I'm Imagining Developer dandan. <br />
-                        Um.... Eng is so difficult hahaha... <br />
-                        So... just Fllow me!!`}
+                        {`안녕하세요! 상상하는 개발자, 윤긍입니다.`} <br />
+                        {`현재 한국디지털미디어고등학교에 재학중인 2학년 학생입니다. `} <br />
+                        {`다양한 분야에서 인정받는 사람이 될 수 있도록 노력하고있습니다. `} <br />
                       </div>
                     </div>
                     <div className={styles.bottom}>
@@ -52,14 +48,66 @@ export default function Home() {
                 </div>
               </div>
               <div className="section">
-                <div className={styles.section1}>
-                  <div className={styles.section1_left_side}>
+                <div className={styles.about}>
+                  <div className={styles.title}>
+                    {`About Me`}
                   </div>
-                  <div className={styles.section1_middle_side}>
-                    <div className={styles.profile}>
+                  <br />
+                  <div className={styles.row}>
+                    <div className={styles.content}>
+                      <div className={styles.name}>
+                        <span>Name</span>
+                      </div>
+                      <div className={styles.value}>
+                        <span>김은교</span>
+                      </div>
+                    </div>
+                    <div className={styles.content}>
+                      <div className={styles.name}>
+                        <span>Birth</span>
+                      </div>
+                      <div className={styles.value}>
+                        <span>2005/02/20</span>
+                      </div>
+                    </div>
+                    <div className={styles.content}>
+                      <div className={styles.name}>
+                        <span>School</span>
+                      </div>
+                      <div className={styles.value}>
+                        <span className={styles.schools}>
+                          한국디지털미디어고등학교
+                        </span>
+                      </div>
                     </div>
                   </div>
-                  <div className={styles.section1_right_side}>
+                  <br /><br />
+                  <div className={styles.row}>
+                    <div className={styles.content}>
+                      <div className={styles.name}>
+                        <span>Tel</span>
+                      </div>
+                      <div className={styles.value}>
+                        <span>010-4580-5306</span>
+                      </div>
+                    </div>
+                    <div className={styles.content}>
+                      <div className={styles.name}>
+                        <span>Email</span>
+                      </div>
+                      <div className={styles.value}>
+                        <span>2005/02/20</span>
+                      </div>
+                    </div>
+                    <div className={styles.content}>
+                      <div className={styles.name}>
+                        <span>Location</span>
+                      </div>
+                      <div className={styles.value}>
+                        <span>안산시 상록구</span>
+                      </div>
+                    </div>
+
                   </div>
                 </div>
               </div>
